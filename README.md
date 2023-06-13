@@ -1,16 +1,13 @@
-### Hi there 👋
+CultureBERT
 
-<!--
-**CultureBERT/CultureBERT** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Open In Colab
 
-Here are some ideas to get you started:
+Tutorial: Predict Corporate Culture with CultureBERT
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+CultureBERT fine-tuned RoBERTa-large, a transformer-based language model, to classify corporate culture. CultureBERT was trained on 1,400 employee reviews and it predicts corporate culture based on the four culture dimensions of the Competing Values Framework (CVF).
+
+You can use this notebook to apply CultureBERT to predict corporate culture on your own text. Using this tutorial/notebook does not require deeper knowledge of transformer-based models and natural language processing (NLP).
+
+Please cite: Koch, Sebastian; Pasch, Stefan (2022): CultureBERT: Fine-Tuning Transformer Based Language Models for Corporate Culture. Available online at http://arxiv.org/abs/2212.00509.
+
+Check: https://huggingface.co/CultureBERT/
